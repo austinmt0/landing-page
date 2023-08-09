@@ -84,6 +84,7 @@ button {
     color: blue;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .heroimage {
@@ -91,10 +92,26 @@ button {
     width: 200px;
 }
 
-
-
-
 /* Contents Code */
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
 
 
 
