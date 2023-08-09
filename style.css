@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
     text-align: center;
@@ -16,7 +17,7 @@ body {
 .navbar
     {
     text-align: center;
-    height: 100px;
+    height: 75px;
     justify-content: space-between;
     display: flex;
     padding: 10px 100px;
@@ -44,7 +45,7 @@ a {
 .hero {
     display: flex;
     padding: 20px;
-    background-color: lightsalmon;
+    background-color: grey;
     align-items: center;
     padding: 10px 100px;
 }
@@ -79,12 +80,15 @@ a {
     border-top: 0;
 }
 
-button {
-    background-color: lightcoral;
-    color: blue;
-    font-size: 16px;
+.statement button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-size: 12px;
     cursor: pointer;
     border-radius: 6px;
+    padding: 3px;
+
 }
 
 .heroimage {
@@ -114,8 +118,8 @@ button {
 
 .quotebackground {
     height: 150px;
-    background-color: aqua;
-    padding: 30px 170px;
+    background-color: lightgrey;
+    padding: 20px 170px;
 }
 
 #quote {
@@ -129,8 +133,58 @@ button {
 
 /* Sign Up Code */
 
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #3882F6;
+    margin: 40px 100px;
+    border-radius: 8px;
+    padding: 5px 50px;
+}
 
+.cta-left {
+    text-align: left;
+    width: 400px;
+    color: white;
+}
 
+.cta-left p {
+    margin: 5px;
+}
+
+#top {
+    font-size: 14px;
+}
+
+#bottom {
+    font-size: 10px;
+}
+
+.cta-right {
+    width: 100px;
+    text-align: right;
+}
+
+.cta-right button {
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+}
 
 /* Footer Code */
 
+.footer {
+    height: 35px;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    padding: 20px 50px;
+}
+
+.footer p {
+    margin: 0;
+}
