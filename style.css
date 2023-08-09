@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: "Roboto", arial;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar
+    {
+    text-align: center;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 100px;
+    background-color: grey;
+    }
+
+.headerlogo {
+    height: 60px;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
